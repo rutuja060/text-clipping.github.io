@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body { 
+  margin: 0;
+}
+div { 
+  text-align: center;
+  position: relative;
+}
+div h1 { 
+  margin: 0;
+  font-size: 20vw; 
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.9;
+}
+.dark h1 {
+  color: #fff;
+}
+
+div img { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  
+}
+.dark {
+  background: #000;
+}
+
+.dark img {
+  mix-blend-mode: darken;
+}
+
+    
